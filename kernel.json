@@ -1,0 +1,12 @@
+{
+ "display_name": "Qiime2 ###UPDATE VERSION### (Python 3)",
+ "language": "python", 
+ "argv": [
+  "###UPDATE FULL PATH TO CONDA ENV###/share/jupyter/kernels/qiime2_kernel/python-wrapper",
+  "-m", 
+  "ipykernel", 
+  "-f", 
+  "{connection_file}",
+  "--IPKernelApp.exec_files=['###UPDATE FULL PATH TO CONDA ENV###/share/jupyter/kernels/qiime2_kernel/startup.py']"
+]
+}
